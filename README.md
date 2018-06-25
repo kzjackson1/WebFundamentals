@@ -36,7 +36,7 @@ already installed.
 1. Run `npm install` (needed for the build process)
 
 ## Build the auto-generated files
-Some files (contributors includes, some pages for updates, showcases, etc.) are
+Some files (contributor's includes, some pages for updates, showcases, etc.) are
 automatically generated. The first time you clone the repo and run `npm install`,
 this is done for you. However, when you add a case study, update, etc., you'll
 need to re-build those files using:
