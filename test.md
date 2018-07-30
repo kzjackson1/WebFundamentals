@@ -6,8 +6,8 @@ description: A tutorial for newer developers to become acquainted with Chrome De
 {# wf_published_on: 2018-07-30 #}
 {# wf_blink_components: Platform>DevTools #}
 
-#DevTools For Beginners {: .page-title }
-##Audience
+# DevTools For Beginners {: .page-title }
+## Audience
 
 This tutorial is for you if any of the following apply:
 
@@ -16,13 +16,13 @@ This tutorial is for you if any of the following apply:
 - You have made a website before, but you want a more polished site.
 
 
-##Goal
+## Goal
 This is the first of three DevTools For Beginners tutorials. These tutorials 
 walk you through basic web fundamentals as well as how to improve your design 
 productivity with DevTools. You will be constructing a personal website from 
 scratch, and the end product will look like this. 
 
-##Setup
+## Setup
 There’s a bit of setup involved for this tutorial:
 
 1. Open the source code. A code editor called Glitch shows a page called index.html. The HTML is mostly empty. You'll be adding your own code to it.
@@ -33,7 +33,7 @@ There’s a bit of setup involved for this tutorial:
 
 Now, you have two tabs open: the code (which will be called the editing tab) and the preview of your website (which will be called the viewing tab). 
 
-##Adding Content
+## Adding Content
 
 Since your website is pretty empty, let’s add some content to it!  In the 
 editing tab, you’ll see two sections in your HTML document: the head (the text 
@@ -64,7 +64,7 @@ Now let’s move on to the more fun part, the `<body>` section. Since this is a 
 8. Add a list under the <p> element on line 21 that details your accomplishments, like so: ```HTML<ul><li>Developer<li><li>Tools<li><li>Search Engine<li></ul>```
 9. Again, go to the viewing tab and refresh the page to see the new content.
 
-##Improving Workflow With DevTools
+## Improving Workflow With DevTools
 
 At this point, you may have noticed that the process of changing the HTML on 
 your site can be somewhat tedious. Wouldn’t it be great if there was an easier 
@@ -72,7 +72,7 @@ way to do this?
 
 Enter DevTools.
 
-###A Note on Nodes
+### A Note on Nodes
 
  When you open the Elements Panel in DevTools, you’ll see a screen that looks 
  quite similar to the HTML document you’ve been working on in the editing tab. 
@@ -85,7 +85,7 @@ Enter DevTools.
  without HTML. This will pay a bigger role when you learn about the Console 
  panel and JavaScript, but for now, you’ll be editing a few DOM nodes yourself.
  
-###Edit DOM Nodes as HTML
+### Edit DOM Nodes as HTML
  The DevTools ‘Inspect Element’ and ‘Edit as HTML’ functions allow you to view 
  changes you make to the DOM in real time. You can try it out by seeing what it 
  would look like to add another picture to your page! Open devtools using 
@@ -118,7 +118,7 @@ You can inspect any element using this method on any web page, but note that
 like before, your changes are not automatically saved when you edit through 
 DevTools.
 
-##Reordering the DOM Tree
+## Reordering the DOM Tree
 
 You can also rearrange the DOM Tree of your document by dragging the nodes of 
 the tree around. For example, on the demo site, the `<div>` containing what 
@@ -130,7 +130,7 @@ DevTools! If you want more information on these workflows, take a look at
 <Inspect Styles>.
 
 
-##Next Steps
+## Next Steps
 	
 Now that you have a grasp on how DevTools interacts with HTML, you’ll be
 looking at using DevTools with CSS to style and customize your website to make 
