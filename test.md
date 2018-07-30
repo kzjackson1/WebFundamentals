@@ -62,15 +62,16 @@ Now let’s move on to the more fun part, the `<body>` section. Since this is a 
 6. You’ll want to make sure the text is properly formatted, so go to the viewing tab and refresh the page.
 7. Go back to the editing tab.
 8. Add a list under the <p> element on line 21 that details your accomplishments, like so: 
-	 ```
+	
 	<ul>
 		<li>Developer</li>
 		<li>Tools</li>
 		<li>Search Engine</li>
 	</ul>
 	
-	```
-9. Again, go to the viewing tab and refresh the page to see the new content.
+9. Again, go to the viewing tab and refresh the page to see the new content.n
+
+![The new content]()
 
 ## Improving Workflow With DevTools
 
@@ -105,6 +106,8 @@ The following screen will appear:
 
 Now you have a live view of your changes! Try adding information to the About node:
 
+![Editing as HTML](editasHTML.gif)
+
 1. Add a paragraph element like: `<p> My website is all about sharing my achievements! </p>`. You can do this by clicking under `<div class= “About”>` and typing in your code.
 2. Add a header element like `<h4>Here’s my resume.</h4>` under the paragraph element.
 3. Add a button under the header element with `<button>Download it!</button>`
@@ -122,6 +125,8 @@ If you know what you want to edit, then there’s an even simpler workflow:
 3. Right click and choose Inspect. 
 4. Double click on either the content or tag of the element to edit it.
 
+![Inspect Element](inspectel.gif)
+
 You can inspect any element using this method on any web page, but note that 
 like before, your changes are not automatically saved when you edit through 
 DevTools.
@@ -133,14 +138,19 @@ the tree around. For example, on the demo site, the `<div>` containing what
 will become the navigation tabs is currently on the bottom of the page. You can 
 easily reposition it by dragging the `<nav>` node to the proper position. 
 
-You’ve successfully learned how to add and edit content on your site with 
-DevTools! If you want more information on these workflows, take a look at 
+![Reordering the DOM](dom.gif)
+
+
+
+*You’ve successfully learned how to add and edit content on your site with 
+DevTools!* If you want more information on these workflows, take a look at 
 <Inspect Styles>.
 
 
 ## Next Steps
-	
+![Prepare for the next steps](endgame.png)
+
 Now that you have a grasp on how DevTools interacts with HTML, you’ll be
 looking at using DevTools with CSS to style and customize your website to make 
-it look a bit nicer. If you still have lingering questions on HTML, take a look 
+it look a bit nicer. Edit your site until it has all of the HTML content you want. If you still have lingering questions on HTML, take a look 
 at this reference guide. Otherwise, you can move on to the next tutorial.
