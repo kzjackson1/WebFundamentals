@@ -68,7 +68,8 @@ Now let’s move on to the more fun part, the `<body>` section. Since this is a 
 		<li>Tools</li>
 		<li>Search Engine</li>
 	</ul>
-	    ```
+	
+	```
 9. Again, go to the viewing tab and refresh the page to see the new content.
 
 ## Improving Workflow With DevTools
