@@ -30,7 +30,7 @@ There’s a bit of setup involved for this tutorial:
 3. Click Remix. Glitch creates a copy of the project that you can edit. The content is the same, but the name in the top left has changed.
 4. Click Show Live. Another tab opens  with a preview of what your site currently looks like.
 
-
+![An image of the two tabs](2tabs.png)
 Now, you have two tabs open: the code (which will be called the editing tab) and the preview of your website (which will be called the viewing tab). 
 
 ## Adding Content
