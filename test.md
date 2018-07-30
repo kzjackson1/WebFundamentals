@@ -55,13 +55,20 @@ Now let’s move on to the more fun part, the `<body>` section. Since this is a 
 
 
 1. Go to line 19 and press enter/return. 
-2. You want a title or heading for this section, so type something like <h1>About Me</h1>. This formats the text as a heading. 
+2. You want a title or heading for this section, so type something like `<h1>About Me</h1>`. This formats the text as a heading. 
 3. To see the changes, go to the viewing tab.
 4. Go back to the editing tab.
 5. You’ll want to put in text, too, so insert a <p> element, like <p> I am learning HTML.</p> under the line where you put the heading. Note that although the <p> element is called a paragraph element, you can put as much (or as little) text as you need in it.
 6. You’ll want to make sure the text is properly formatted, so go to the viewing tab and refresh the page.
 7. Go back to the editing tab.
-8. Add a list under the <p> element on line 21 that details your accomplishments, like so: ```HTML<ul><li>Developer<li><li>Tools<li><li>Search Engine<li></ul>```
+8. Add a list under the <p> element on line 21 that details your accomplishments, like so: 
+	 ```
+	<ul>
+		<li>Developer</li>
+		<li>Tools</li>
+		<li>Search Engine</li>
+	</ul>
+	    ```
 9. Again, go to the viewing tab and refresh the page to see the new content.
 
 ## Improving Workflow With DevTools
