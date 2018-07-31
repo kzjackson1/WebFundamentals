@@ -1,3 +1,6 @@
+project_path: /web/tools/_project.yaml
+book_path: /web/tools/_book.yaml
+description: A tutorial for newer developers to become acquainted with Chrome DevTools.
 
 {# wf_updated_on: 2018-07-31 #}
 {# wf_published_on: 2018-07-30 #}
